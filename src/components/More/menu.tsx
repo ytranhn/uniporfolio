@@ -35,7 +35,10 @@ export default function MenuMore(props: MenuMoreProps) {
 					<span className="font-medium text-lg">Subscriptions</span>
 					<BoltIcon className="h-6 w-6 text-cyan-500" />
 				</div>
-				<div className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer">
+				<div
+					className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer"
+					onClick={() => router.push('/storage')}
+				>
 					<span className="font-medium text-lg">Purchased Content</span>
 					<CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
 				</div>
