@@ -13,7 +13,7 @@ export default function Storage(props: StorageProps) {
 			<div className="pt-20">
 				{!data && (
 					<div className="pt-40 flex flex-col justify-center text-center">
-						<p className="text-base text-gray-500">You haven't purchased any media yet</p>
+						<p className="text-base text-gray-500">You have not purchased any media yet</p>
 						<p className="text-base text-gray-500">Purchased private media will appear here</p>
 					</div>
 				)}

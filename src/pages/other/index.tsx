@@ -1,7 +1,7 @@
 import HeaderLayout from 'components/HeaderLayout';
-import BeComeMember from 'components/More/beCome';
-import MenuMore from 'components/More/menu';
-import TopMore from 'components/More/topMore';
+import BeComeMember from 'components/More/_beCome';
+import MenuMore from 'components/More/_menu';
+import TopMore from 'components/More/_topMore';
 import Layout from 'sections/Layout';
 
 export default function Other() {

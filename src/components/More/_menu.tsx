@@ -12,6 +12,7 @@ import {
 } from '@heroicons/react/24/solid';
 import { CurrencyDollarIcon } from '@heroicons/react/24/outline';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 export interface MenuMoreProps {}
 
@@ -42,13 +43,22 @@ export default function MenuMore(props: MenuMoreProps) {
 					<span className="font-medium text-lg">Purchased Content</span>
 					<CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
 				</div>
-				<div className="ml-3 pl-0 p-3 flex items-center justify-between cursor-pointer">
+				<Link
+					href={{
+						pathname: '/other',
+						query: { w: 'edit' },
+					}}
+					className="ml-3 pl-0 p-3 flex items-center justify-between cursor-pointer"
+				>
 					<span className="font-medium text-lg">Edit profile</span>
 					<PencilIcon className="h-6 w-6 text-gray-500" />
-				</div>
+				</Link>
 			</div>
 			<div className="mt-4 pl-3 rounded-xl bg-primary">
-				<div className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer">
+				<div
+					className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer"
+					onClick={() => router.push('/invite')}
+				>
 					<span className="font-medium text-lg">Referral program</span>
 					<UserPlusIcon className="h-6 w-6 text-gray-500" />
 				</div>

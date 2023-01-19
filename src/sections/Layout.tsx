@@ -13,15 +13,15 @@ export default function Layout(props: LayoutProps) {
 	return (
 		<>
 			<Head>
-				<title>Nextjs-Dev Blog</title>
+				<title>Balsa</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="min-h-screen mx-auto max-w-3xl flex">
-				<div className="w-60 fixed top-0">
+			<div className="min-h-screen mx-auto max-w-4xl flex">
+				<div className="w-64 fixed top-0">
 					<SideNavBar />
 				</div>
-				<main className="px-4 ml-60 overflow-hidden w-full">{children}</main>
+				<main className="px-4 ml-64 overflow-hidden w-full">{children}</main>
 			</div>
 		</>
 	);
