@@ -34,7 +34,7 @@ export default function MediaScription(props: MediaScriptionProps) {
 								<div className="ml-4">
 									<p className="text-base font-bold mb-1">Extra profits</p>
 									<p className="text-sm font-normal text-gray-400">
-										Get payouts not only from ads revenue but from other Media users' engagement in
+										Get payouts not only from ads revenue but from other Media users engagement in
 										your profile.
 									</p>
 								</div>
