@@ -1,6 +1,6 @@
-import Logo from 'components/logo/logo';
+import Logo from 'components/Logo';
 import { useTheme } from 'next-themes';
-import { SunIcon, MoonIcon } from '@heroicons/react/solid';
+import { SunIcon, MoonIcon } from '@heroicons/react/24/solid';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 
@@ -41,8 +41,6 @@ export default function HeaderSection(props: HeaderSectionProps) {
 	return (
 		<header className="h-15 dark:border-gray-700">
 			<div className="container px-4 sm:px-6 py-4 flex justify-between items-center">
-				{/* Logo */}
-				<Logo />
 				{renderThemeChanger()}
 			</div>
 		</header>
