@@ -21,7 +21,7 @@ export default function MediaScription(props: MediaScriptionProps) {
 							<StarIcon className="h-9 w-9" />
 						</div>
 						<div className="mt-4">
-							<p className=" text-2xl font-bold mb-2">Balsa.co Media</p>
+							<p className=" text-2xl font-bold mb-2">Balsa Media</p>
 							<p className=" text-base font-normal">
 								Discover premium opportunities and benefits with a Balsa Media membership.
 							</p>
