@@ -62,7 +62,10 @@ export default function MenuMore(props: MenuMoreProps) {
 					<span className="font-medium text-lg">Referral program</span>
 					<UserPlusIcon className="h-6 w-6 text-gray-500" />
 				</div>
-				<div className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer">
+				<div
+					className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer"
+					onClick={() => router.push('/subscriptions/personal')}
+				>
 					<span className="font-medium text-lg">Sponsors</span>
 					<SparklesIcon className="h-6 w-6 text-gray-500" />
 				</div>

@@ -14,7 +14,7 @@ export default function ShareRef(props: ShareRefProps) {
 					rel="noreferrer"
 				>
 					<div className="flex flex-col items-center">
-						<Image className="w-14 rounded-xl" src="/ic-telegram.svg" alt="" />
+						<Image src={'/ic-telegram.svg'} className="w-14 rounded-xl" alt="" />
 						<p className="mt-2 font-semibold text-sm">Telegram</p>
 					</div>
 				</a>
@@ -24,7 +24,7 @@ export default function ShareRef(props: ShareRefProps) {
 					rel="noreferrer"
 				>
 					<div className="flex flex-col items-center">
-						<Image className="w-14 rounded-xl" src="/ic-facebook.svg" alt="" />
+						<Image src={'/ic-facebook.svg'} className="w-14 rounded-xl" alt="" />
 						<p className="mt-2 font-semibold text-sm">Facebook</p>
 					</div>
 				</a>
@@ -34,7 +34,7 @@ export default function ShareRef(props: ShareRefProps) {
 					rel="noreferrer"
 				>
 					<div className="flex flex-col items-center">
-						<Image className="w-14 rounded-xl" src="/ic-twitter.jpg" alt="" />
+						<Image src={'/ic-twitter.jpg'} className="w-14 rounded-xl" alt="" />
 						<p className="mt-2 font-semibold text-sm">Twitter</p>
 					</div>
 				</a>

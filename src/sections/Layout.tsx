@@ -17,7 +17,7 @@ export default function Layout(props: LayoutProps) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="min-h-screen mx-auto max-w-4xl flex">
+			<div className="min-h-screen mx-auto max-w-3xl flex">
 				<div className="w-64 fixed top-0">
 					<SideNavBar />
 				</div>
