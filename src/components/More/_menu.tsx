@@ -77,11 +77,14 @@ export default function MenuMore(props: MenuMoreProps) {
 					<span className="font-medium text-lg">Help</span>
 					<QuestionMarkCircleIcon className="h-6 w-6 text-gray-500" />
 				</div>
-				<div className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer">
+				{/* <div className="ml-3 pl-0 p-3 border-b border-gray-700 flex items-center justify-between cursor-pointer">
 					<span className="font-medium text-lg">Ads</span>
 					<MegaphoneIcon className="h-6 w-6 text-gray-500" />
-				</div>
-				<div className="ml-3 pl-0 p-3 flex items-center justify-between cursor-pointer">
+				</div> */}
+				<div
+					className="ml-3 pl-0 p-3 flex items-center justify-between cursor-pointer"
+					onClick={() => router.push('/settings')}
+				>
 					<span className="font-medium text-lg">Settings</span>
 					<Cog6ToothIcon className="h-6 w-6 text-gray-500" />
 				</div>

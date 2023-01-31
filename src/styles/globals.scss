@@ -67,6 +67,18 @@
 			margin: 0;
 		}
 	}
+	input[type='checkbox'] {
+		@apply w-5 h-5 mr-4 cursor-pointer appearance-none rounded checked:bg-cyan-500 border-2 border-cyan-500 relative;
+		&:after {
+			content: '✔';
+			@apply absolute -top-1 -left-0.5 w-5 h-5 scale-50 opacity-0;
+		}
+		&:checked {
+			&:after {
+				@apply opacity-100;
+			}
+		}
+	}
 	textarea {
 		@apply resize-none h-24 w-full bg-primary rounded-xl outline-none py-2 px-4;
 	}
